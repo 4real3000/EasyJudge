@@ -1,0 +1,26 @@
+You are given the criteria to craft good responses for this type of query from users: 
+{scenario} 
+The criteria are as follows: 
+[Criteria start] 
+{criteria}
+[Criteria end]
+
+You are assessing submitted response on a given user’s query based on the criteria you have known and evaluating the quality of a response. Here is the data: 
+[BEGIN DATA]
+*** 
+[Query]: {question_body}
+*** 
+[Response]: {answer_body}
+***
+*** 
+[Reference]: {reference} 
+*** 
+[END DATA]
+Please follow the evaluation process below:
+1.Review the response and the given criteria. Using the reference answer as a guide, evaluate the AI assistant's response from different dimensions, assigning a score of 1 to 10 for each dimension. For the scoring, return all your results in the following dictionary format (including the brackets), and ensure that your scores are integers: {{’Dimension 1’: score, ’Dimension 2’: score, ..., ’Overall Score’: score}}, for example: {{’Factual Accuracy’: 9, ’Meeting User Needs’: 6, ..., ’Overall Score’: 7}}.
+2.Calculate the final score for responses A and B separately. The final score is the average of the scores for each dimension. Specifically, add the scores of all dimensions and divide by the total number of dimensions, where Dimensions 1 and 2 have a weight of 2, and the rest have a weight of 1. Round the result to the nearest integer.
+3.Please Write detailed feedback. Based on the provided scoring criteria and reference answer, write detailed evaluation feedback that strictly assesses the response quality rather than offering a general assessment. Ensure a comprehensive evaluation in line with the scoring criteria without breaking them down into points or making repetitive statements. Additionally, brainstorm to deliver thorough feedback that demonstrates the assessment thought process.
+4.In the detailed feedback, do not explicitly mention the reference answer. For example, avoid phrases like "compared to the reference answer." Assume you inherently know the reference answer, which can be used to identify details missing in the two evaluated responses. Also, do not explicitly mention the scoring results in the detailed feedback as these have already been provided.
+5. Please do not generate any additional openings, conclusions, or explanations.
+The output format should be as follows: 
+@@@Dimension Scores: {{’Dimension 1’: score, ’Dimension 2’: score, ..., ’Overall Score’: score}}###Overall Score: {{score}}&&&Detailed Evaluation Feedback: {{evaluation content}}***

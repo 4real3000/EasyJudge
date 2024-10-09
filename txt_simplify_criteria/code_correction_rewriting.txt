@@ -1,0 +1,10 @@
+1. code correctness
+2. completeness of components and functionality
+3. code readability
+4. documentation
+5. modularity
+6. running efficiency
+7. error handling
+8. coverage
+9. pointing out
+10. instruction following

@@ -1,0 +1,5 @@
+1. math operation correctness
+2. step by step explanation
+3. notation
+4. formula formatting
+5. logic

@@ -1,0 +1,6 @@
+1. text quality
+2. accuracy of answer
+3. depth of understanding
+4. explanation of solution process
+5. structure of answer
+6. knowledge points identification

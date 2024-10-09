@@ -1,0 +1,10 @@
+1. completeness of instruction following
+2. accuracy
+3. information richness
+4. harmlessness
+5. text quality
+6. coverage
+7. genre
+8. tone
+9. style
+10. difference

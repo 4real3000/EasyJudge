@@ -1,0 +1,10 @@
+1. completeness of instruction following
+2. accuracy
+3. harmlessness
+4. text quality
+5. clarity
+6. feasibility
+7. creativity
+8. thoroughness
+9. structure
+10. layout

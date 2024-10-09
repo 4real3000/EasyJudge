@@ -1,0 +1,10 @@
+1. completeness of instruction following
+2. information richness
+3. harmlessness
+4. text quality
+5. user intention inference
+6. coverage
+7. accuracy
+8. conciseness
+9. simplification
+10. structure

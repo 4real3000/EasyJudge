@@ -1,0 +1,10 @@
+1. accuracy of answer
+2. depth of understanding
+3. explanation of solution process
+4. structure of answer
+5. knowledge points identification
+6. math operation correctness
+7. step by step explanation
+8. notation
+9. formula formatting
+10. logic

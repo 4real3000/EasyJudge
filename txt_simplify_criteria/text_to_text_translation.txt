@@ -1,0 +1,8 @@
+1. completeness of instruction following
+2. accuracy
+3. information richness
+4. harmlessness
+5. text quality
+6. coverage
+7. terms and concepts
+8. structure

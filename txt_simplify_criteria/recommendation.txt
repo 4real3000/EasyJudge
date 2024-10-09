@@ -1,0 +1,10 @@
+1. completeness of instruction following
+2. information richness
+3. harmlessness
+4. text quality
+5. main features
+6. comparison
+7. explanation
+8. diversity
+9. structure
+10. layout

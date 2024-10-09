@@ -1,0 +1,25 @@
+You are given the criteria to craft good responses for this type of query from users: 
+{scenario} 
+The criteria are as follows: 
+[Criteria start] 
+{criteria}
+[Criteria end]
+
+You are assessing two submitted responses on a given user’s query and judging which response is better or they are tied. Here is the data: 
+[BEGIN DATA]
+*** 
+[Query]: {question_body}
+*** 
+[Response 1]: {answer1_body}
+***
+[Response 2]: {answer2_body}
+*** 
+[END DATA]
+Please follow the evaluation process outlined below:
+1. First, using the given scoring criteria and reference answer, evaluate responses A and B from various dimensions, scoring each dimension from 1 to 10. In the answer section, return all your scoring results in the following dictionary format (including brackets), and ensure your scores are integers: {{'Dimension One': Score, 'Dimension Two': Score, ..., 'Overall Score': Score}}, e.g., {{'Factual Accuracy': 9, 'User Need Fulfillment': 6, ..., 'Overall Score': 7}}.
+2. Calculate the final score for responses A and B separately. The final score is the average of the scores for each dimension. Specifically, add the scores of all dimensions and divide by the total number of dimensions, where Dimensions 1 and 2 have a weight of 2, and the rest have a weight of 1. Round the result to the nearest integer.
+3. Compare the final scores of response A and response B, and conclude which is better, or if they are equally good.
+4. Write detailed feedback explaining why A or B is better, focusing on aspects emphasized in the evaluation criteria. Additionally, brainstorm and provide a more detailed comparative feedback result. When writing feedback, compare responses A and B directly, mentioning their similarities and differences. Try to articulate a reasoning process that explores the commonalities and differences between the two responses, mentioning these reasons at the end.
+5. In the detailed feedback, do not explicitly mention the reference answer. For example, avoid phrases like "compared to the reference answer." Assume you inherently know the reference answer, which can be used to identify details missing in the two evaluated responses. Also, do not explicitly mention the scoring results in the detailed feedback as these have already been provided.
+6. Do not generate any additional introductions, conclusions, or explanations.
+The output format should be as follows: "@@@{{response A: Scores per dimension: ['Dimension One': Score, 'Dimension Two': Score, ..., 'Overall Score': Score]}}@@@{{response B: Scores per dimension: ['Dimension One': Score, 'Dimension Two': Score, ..., 'Overall Score': Score]}}###Final Result: {{A or B or Tie}}&&&Detailed Evaluation Feedback: {{Evaluation Content}}***"

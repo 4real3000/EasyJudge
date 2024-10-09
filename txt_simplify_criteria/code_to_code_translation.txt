@@ -1,0 +1,10 @@
+1. code correctness
+2. completeness of components and functionality
+3. code readability
+4. input/output requirements
+5. documentation
+6. modularity
+7. running efficiency
+8. error handling
+9. testing
+10. coverage
