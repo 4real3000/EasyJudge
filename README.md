@@ -33,7 +33,7 @@ ollama serve
 ```
 
 ##### 3. 导入EasyJudge模型
-需要将 Modelfile 每个模型文件中的 `from` 后的路径，修改为从 huggingface 下载模型的本地路径。
+需要将 Modelfile 中每个模型文件下第一行 `from` 后的路径，修改为从 huggingface 下载模型的本地路径。
 ```bash
 export OLLAMA_HOST="0.0.0.0:6006"
 ollama create PAIRWISE -f /root/autodl-tmp/Modelfile/PAIRWISE.Modelfile
