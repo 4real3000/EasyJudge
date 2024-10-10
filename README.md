@@ -6,3 +6,8 @@
 
 - **Efficient Inference Engine**: EasyJudge employs model quantization, memory management optimization, and hardware acceleration support to enable efficient inference. As a result, EasyJudge can run seamlessly on consumer-grade GPUs and even CPUs.
 
+## Overview
+![Example Image](picture/图1_00.png)
+
+
+
