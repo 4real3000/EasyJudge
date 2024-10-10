@@ -16,29 +16,46 @@ EasyJudge is now available on huggingface-hub:
 
 ### Quick Start
 
-以autodl云服务器部署为例
+Here's how the provided content can be translated into English and formatted into Markdown for a README or similar documentation:
 
-#### 部署ollama
 
-##### 1. 在autodl安装软件启动
+Example of Deploying on autodl Cloud Server
+
+#### Deploy ollama
+
+##### 1. Start the installation software on autodl
 ```bash
 export OLLAMA_HOST="0.0.0.0:6006"
 export OLLAMA_MODELS=/root/autodl-tmp/models
 curl -fsSL https://ollama.com/install.sh | sh
 ```
 
-##### 2. 启动服务
+##### 2. Start the service
 ```bash
 ollama serve
 ```
 
-##### 3. 导入EasyJudge模型
-需要将 Modelfile 中每个模型文件下第一行 `from` 后的路径，修改为从 huggingface 下载模型的本地路径。
+##### 3. Import EasyJudge models
+Modify the path after `from` in each Modelfile to the local path where the model is downloaded from huggingface.
 ```bash
 export OLLAMA_HOST="0.0.0.0:6006"
 ollama create PAIRWISE -f /root/autodl-tmp/Modelfile/PAIRWISE.Modelfile
 ollama create POINTWISE -f /root/autodl-tmp/Modelfile/POINTWISE.Modelfile
 ```
 
+#### Environment Configuration
 
+EasyJudge uses the environment PyTorch 2.3.0, Python 3.12 (ubuntu22.04), and Cuda 12.1.
+
+##### Create conda environment
+```bash
+conda create -n EasyJudge
+conda init
+conda activate EasyJudge
+```
+
+##### Install specified Python packages in bulk
+```bash
+pip install -r requirements.txt
+```
 ### Acknowledge
