@@ -1,6 +1,6 @@
-## EasyJudge: an Easy-to-use Tool for Comprehensive Response Evaluation of LLMs
+# EasyJudge: an Easy-to-use Tool for Comprehensive Response Evaluation of LLMs
 
-### Features of EasyJudge
+## Features of EasyJudge
 
 - **Lightweight Usage Model**: EasyJudge is built to minimize dependency requirements, offering a simple installation process and precise documentation. Users can initiate the evaluation interface with only a few basic commands.
 
