@@ -1,4 +1,4 @@
-# EasyJudge: an Easy-to-use Tool for Comprehensive Response Evaluation of LLMs
+## EasyJudge: an Easy-to-use Tool for Comprehensive Response Evaluation of LLMs
 
 - **Lightweight Usage Model**: EasyJudge is built to minimize dependency requirements, offering a simple installation process and precise documentation. Users can initiate the evaluation interface with only a few basic commands.
 
@@ -6,8 +6,11 @@
 
 - **Efficient Inference Engine**: EasyJudge employs model quantization, memory management optimization, and hardware acceleration support to enable efficient inference. As a result, EasyJudge can run seamlessly on consumer-grade GPUs and even CPUs.
 
-## Overview
+### System Overview
 ![Example Image](picture/screenshot.png)
 
+### Model
 
+EasyJudge is now available on huggingface-hub:
+[🤗 4real/EasyJudge_gguf](https://huggingface.co/4real/EasyJudge_gguf)
 
