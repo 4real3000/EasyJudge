@@ -53,4 +53,12 @@ conda activate EasyJudge
 ```bash
 pip install -r requirements.txt
 ```
+#### Run the Program
+
+To start the application, use the following command to run `main.py` with specific server configurations:
+
+```bash
+streamlit run main.py --server.address=127.0.0.1 --server.port=6006 --server.enableXsrfProtection=false
+```
+
 ### Acknowledge
