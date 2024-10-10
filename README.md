@@ -39,8 +39,6 @@ export OLLAMA_HOST="0.0.0.0:6006"
 ollama create PAIRWISE -f /root/autodl-tmp/Modelfile/PAIRWISE.Modelfile
 ollama create POINTWISE -f /root/autodl-tmp/Modelfile/POINTWISE.Modelfile
 ```
-```
 
-这样整理后的Markdown代码，每个部分都清晰地用代码块分隔，易于在GitHub上阅读和理解。
 
 ### Acknowledge
