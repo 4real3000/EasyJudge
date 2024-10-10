@@ -1,0 +1,18 @@
+from  /root/autodl-tmp/models/pairwise-with-reference-simplify-criteria-llama-3-8b-q8_0-v1.gguf
+
+TEMPLATE """{{- if .System }}
+<|system|>
+{{ .System }}
+{{- end }}
+<|user|>
+{{ .Prompt }}
+<|assistant|>
+"""
+ 
+SYSTEM """You are a helpful, smart, kind, and efficient AI assistant.Your name is EasyJudge. You always fulfill the user's requests to the best of your ability."""
+ 
+PARAMETER temperature 0
+PARAMETER num_ctx 8192
+PARAMETER stop "<|system|>"
+PARAMETER stop "<|user|>"
+PARAMETER stop "<|assistant|>"
