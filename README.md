@@ -47,14 +47,14 @@ ollama create POINTWISE -f /root/autodl-tmp/Modelfile/POINTWISE.Modelfile
 
 EasyJudge uses the environment PyTorch 2.3.0, Python 3.12 (ubuntu22.04), and Cuda 12.1.
 
-##### Create conda environment
+##### 1. Create conda environment
 ```bash
 conda create -n EasyJudge
 conda init
 conda activate EasyJudge
 ```
 
-##### Install specified Python packages in bulk
+##### 2. Install specified Python packages in bulk
 ```bash
 pip install -r requirements.txt
 ```
