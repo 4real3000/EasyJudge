@@ -61,7 +61,7 @@ To start the application, use the following command to run `main.py` with specif
 streamlit run main.py --server.address=127.0.0.1 --server.port=6006 --server.enableXsrfProtection=false
 ```
 
-### Acknowledge❤️
+## Acknowledge❤️
 We acknowledge these works for their public codes: 
 [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory), 
 [llama.cpp](https://github.com/ggerganov/llama.cpp), 
