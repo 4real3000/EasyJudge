@@ -16,12 +16,9 @@ EasyJudge is now available on huggingface-hub:
 
 ### Quick Start
 
-Here's how the provided content can be translated into English and formatted into Markdown for a README or similar documentation:
+(Example of Deploying on autodl Cloud Server)
 
-
-Example of Deploying on autodl Cloud Server
-
-#### Deploy ollama
+-#### Deploy ollama
 
 ##### 1. Start the installation software on autodl
 ```bash
@@ -43,9 +40,9 @@ ollama create PAIRWISE -f /root/autodl-tmp/Modelfile/PAIRWISE.Modelfile
 ollama create POINTWISE -f /root/autodl-tmp/Modelfile/POINTWISE.Modelfile
 ```
 
-#### Environment Configuration
+-#### Environment Configuration
 
-EasyJudge uses the environment PyTorch 2.3.0, Python 3.12 (ubuntu22.04), and Cuda 12.1.
+(EasyJudge uses the environment PyTorch 2.3.0, Python 3.12 (ubuntu22.04), and Cuda 12.1.)
 
 ##### 1. Create conda environment
 ```bash
