@@ -16,5 +16,31 @@ EasyJudge is now available on huggingface-hub:
 
 ### Quick Start
 
+以autodl云服务器部署为例
+
+#### 部署ollama
+
+##### 1. 在autodl安装软件启动
+```bash
+export OLLAMA_HOST="0.0.0.0:6006"
+export OLLAMA_MODELS=/root/autodl-tmp/models
+curl -fsSL https://ollama.com/install.sh | sh
+```
+
+##### 2. 启动服务
+```bash
+ollama serve
+```
+
+##### 3. 导入EasyJudge模型
+需要将 Modelfile 每个模型文件中的 `from` 后的路径，修改为从 huggingface 下载模型的本地路径。
+```bash
+export OLLAMA_HOST="0.0.0.0:6006"
+ollama create PAIRWISE -f /root/autodl-tmp/Modelfile/PAIRWISE.Modelfile
+ollama create POINTWISE -f /root/autodl-tmp/Modelfile/POINTWISE.Modelfile
+```
+```
+
+这样整理后的Markdown代码，每个部分都清晰地用代码块分隔，易于在GitHub上阅读和理解。
 
 ### Acknowledge
