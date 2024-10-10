@@ -22,7 +22,6 @@ EasyJudge is now available on huggingface-hub:
 
 ##### 1. Start the installation software on autodl
 ```bash
-export OLLAMA_HOST="0.0.0.0:6006"
 export OLLAMA_MODELS=/root/autodl-tmp/models
 curl -fsSL https://ollama.com/install.sh | sh
 ```
@@ -35,7 +34,6 @@ ollama serve
 ##### 3. Import EasyJudge models
 Modify the path after `from` in each Modelfile to the local path where the model is downloaded from huggingface.
 ```bash
-export OLLAMA_HOST="0.0.0.0:6006"
 ollama create PAIRWISE -f /root/autodl-tmp/Modelfile/PAIRWISE.Modelfile
 ollama create POINTWISE -f /root/autodl-tmp/Modelfile/POINTWISE.Modelfile
 ```
