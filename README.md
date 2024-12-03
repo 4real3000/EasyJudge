@@ -34,8 +34,8 @@ ollama serve
 ##### 3. Import EasyJudge models
 Modify the path after `from` in each Modelfile to the local path where the model is downloaded from huggingface.
 ```bash
-ollama create PAIRWISE -f /root/autodl-tmp/Modelfile/PAIRWISE.Modelfile
-ollama create POINTWISE -f /root/autodl-tmp/Modelfile/POINTWISE.Modelfile
+ollama create PAIRWISE -f /root/autodl-tmp/EasyJudge/Modelfile/PAIRWISE.Modelfile
+ollama create POINTWISE -f /root/autodl-tmp/EasyJudge/Modelfile/POINTWISE.Modelfile
 ```
 
 #### Environment Configuration
