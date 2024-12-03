@@ -61,6 +61,19 @@ To start the application, use the following command to run `main.py` with specif
 streamlit run main.py --server.address=127.0.0.1 --server.port=6006 --server.enableXsrfProtection=false
 ```
 
+## Citation
+
+Please cite the repo or the paper if the model/code/resource/conclusion in this repo is helpful to you.
+
+```
+@article{li2024easyjudge,
+  title={EasyJudge: an Easy-to-use Tool for Comprehensive Response Evaluation of LLMs},
+  author={Li, Yijie and Sun, Yuan},
+  journal={arXiv preprint arXiv:2410.09775},
+  year={2024}
+}
+```
+
 ## Acknowledge❤️
 We acknowledge these works for their public codes: 
 [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory), 
