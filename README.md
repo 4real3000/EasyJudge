@@ -16,7 +16,7 @@ EasyJudge is now available on huggingface-hub:
 
 ## Quick Start
 
-(Example of Deploying on autodl Cloud Server)
+(Example of Deploying on [AutoDL](https://www.autodl.com/home) Cloud Server)
 
 #### Deploy ollama
 
