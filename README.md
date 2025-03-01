@@ -81,3 +81,17 @@ We acknowledge these works for their public codes:
 [ollama](https://github.com/ollama/ollama), 
 [auto-j](https://github.com/GAIR-NLP/auto-j/tree/main),
 [JudgeLM](https://github.com/baaivision/JudgeLM).
+
+## Citation📚 
+
+If you use our dataset or model, please cite our paper:
+
+```bibtex
+@inproceedings{li2025easyjudge,
+  title={EasyJudge: an Easy-to-use Tool for Comprehensive Response Evaluation of LLMs},
+  author={Li, Yijie and Sun, Yuan},
+  booktitle={Proceedings of the 31st International Conference on Computational Linguistics: System Demonstrations},
+  pages={91--103},
+  year={2025}
+}
+```
