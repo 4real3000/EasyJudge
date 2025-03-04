@@ -63,27 +63,6 @@ streamlit run main.py --server.address=127.0.0.1 --server.port=6006 --server.ena
 
 ## Citation
 
-Please cite the repo or the paper if the model/code/resource/conclusion in this repo is helpful to you.
-
-```
-@article{li2024easyjudge,
-  title={EasyJudge: an Easy-to-use Tool for Comprehensive Response Evaluation of LLMs},
-  author={Li, Yijie and Sun, Yuan},
-  journal={arXiv preprint arXiv:2410.09775},
-  year={2024}
-}
-```
-
-## Acknowledge❤️
-We acknowledge these works for their public codes: 
-[LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory), 
-[llama.cpp](https://github.com/ggerganov/llama.cpp), 
-[ollama](https://github.com/ollama/ollama), 
-[auto-j](https://github.com/GAIR-NLP/auto-j/tree/main),
-[JudgeLM](https://github.com/baaivision/JudgeLM).
-
-## Citation📚 
-
 If you use our dataset or model, please cite our paper:
 
 ```bibtex
@@ -95,3 +74,11 @@ If you use our dataset or model, please cite our paper:
   year={2025}
 }
 ```
+
+## Acknowledge❤️
+We acknowledge these works for their public codes: 
+[LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory), 
+[llama.cpp](https://github.com/ggerganov/llama.cpp), 
+[ollama](https://github.com/ollama/ollama), 
+[auto-j](https://github.com/GAIR-NLP/auto-j/tree/main),
+[JudgeLM](https://github.com/baaivision/JudgeLM).
